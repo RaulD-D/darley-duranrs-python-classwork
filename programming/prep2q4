@@ -1,0 +1,33 @@
+print(“Select one of the following options: ”)
+print(“Enter A for Multiply: ”)
+print(“Enter B for Divide: ”)
+print(“Enter C for Add: ”)
+print(“Enter D for Subtract: ”)
+print(“Enter E for Remainder Division: ”)
+math = str(input())
+n1 = int(input())
+n2 = int(input())
+match math:
+    case 'A':
+        result = n1 * n2
+        print("The result is: ", result)
+    case 'B':
+        if n2 != 0:
+            result = n1 / n2
+            print("The result is: ", result)
+        else:
+            print("Cannot divide by zero.")
+    case 'C':
+        result = n1 + n2
+        print("The result is: ", result)
+    case 'D':
+        result = n1 - n2
+        print("The result is: ", result)
+    case 'E':
+        if n2 != 0:
+            result = n1 % n2
+            print("The result is: ", result)
+        else:
+            print("Cannot divide by zero.")
+    case _:
+        print("You did not enter a valid choice.")
