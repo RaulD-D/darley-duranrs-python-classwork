@@ -1,0 +1,5 @@
+Num = int(input("Enter a 3 digit number"))
+FirstDigit = Num // 100
+SecondDigit = (Num % 100) // 10
+ThirdDigit = (Num % 10)
+print(FirstDigit 'Hundreds', SecondDigit 'Tens', ThirdDigit 'Units')

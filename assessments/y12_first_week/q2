@@ -1,0 +1,12 @@
+h = int(input())
+m = int(input())
+x = str(input())
+if x == "am":
+    h = h * 60
+    nom = h + m
+elif x == "pm":
+    if h == "12":
+        h = h * 60
+    h = h * 60 + h *12
+    nom = h + m
+print("It has been ", nom, "since midnight")
