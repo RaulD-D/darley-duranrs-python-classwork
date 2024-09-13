@@ -1,0 +1,4 @@
+Name = str(input())
+if Name == "Hazel":
+    print("Hello Hazel")
+print("We haven’t met,", Name,"pleased to meet you")
