@@ -10,5 +10,7 @@ if (mod (Year,400) == 0) then
 	LeapYear = TRUE
 Endif
 If LeapYear = TRUE then
-	Print(Year, “is not a Leap Year”)
+	Print(Year, “is a Leap Year”)
+else
+	print(Year, "is not a Leap Year")
 endif
