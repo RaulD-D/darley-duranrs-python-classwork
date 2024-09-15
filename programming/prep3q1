@@ -1,0 +1,10 @@
+smallest = "a"
+largest = "z"
+for i in range (5) :
+        letter = lower_str(input("Enter a letter"))
+        if letter < smallest:
+               smallest = letter
+        else:
+                largest = letter
+        print ("The smallest is ", smallest) 
+        print"The largest is", largest)
