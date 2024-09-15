@@ -1,0 +1,7 @@
+guess_1 = str(input("Enter A password" ))
+guess_2 = str(input("Enter A password" ))
+guess_3 = str(input("Enter A password" ))
+if guess_1 or guess_2 or guess_3 =="Tues1212":
+          print ("Password accepted")
+else:
+          print(“Password rejected”)
