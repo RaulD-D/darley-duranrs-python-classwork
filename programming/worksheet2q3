@@ -1,0 +1,9 @@
+post = 0
+cost = float(input("What is the total amount of money you are paying?"))
+FirstPost = str(input("Do you want 1st class mail for an extra £5.00? Yes or No"))
+if FirstPost == "No":
+    if cost < 15:
+        post = 3.50
+else:
+    post = 5.00
+print(cost+post, post)
