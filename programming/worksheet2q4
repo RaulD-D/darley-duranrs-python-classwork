@@ -1,0 +1,13 @@
+exam = int(input())
+attendance = int(input())
+if attendance > 90:
+    if exam > 90:
+        print("Grade = A")
+    elif exam >80 and exam <= 90:
+        print("Grade = B")
+    elif exam <=70:
+        print("Fail")
+    else:
+        print("Grade = C")
+else:
+    print("Fail")
