@@ -2,7 +2,7 @@ trigger = str(input())
 if trigger == "on":
     if movementGround == true or movementFirst == true:
         Alarm = on
-	If movementGround == true and movementFirst == true:
+	if movementGround == true and movementFirst == true:
 		Print(“Intruder Alert on both floors”)
         elif movementGround == true:
 		print("Intruder Alert on ground floor")
