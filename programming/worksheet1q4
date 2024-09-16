@@ -1,0 +1,5 @@
+student = int(input())
+books = int(input())
+Bps = books // student
+Remainder = books % student
+print(Bps, Remainder)
