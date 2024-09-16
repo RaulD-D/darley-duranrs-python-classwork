@@ -1,0 +1,7 @@
+carchoice = str(input("What car would you like"))
+if carchoice == "economy car" or carchoice == "saloon car" or carchoice == "sports car":
+    resp = str(input("Type proceed if you would like to confirm your purchase"))
+    if resp == "proceed":
+        print("Have a nice day with your new car!")
+    else:
+        print("Have a nice day.")
