@@ -1,0 +1,5 @@
+lastmile = int(input())
+newmile = int(input())
+litre = float(input())
+mpg = (lastmile - newmile) / (litre * 0.22)
+print(mpg)
