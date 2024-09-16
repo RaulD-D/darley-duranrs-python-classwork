@@ -1,0 +1,13 @@
+temp = str(input("Do you have a temperature?"))
+if temp == "yes":
+    st = str(input("Do you have a sore throat"))
+    if st == "yes":
+        print("You have a throat infection")
+    else:
+        cough = str(input("Do you have a cough"))
+        if cough == "yes":
+            print("You have a chest infection")
+        else:
+            print("You have a fever")
+else:
+    print("We can not tell you your condition")
