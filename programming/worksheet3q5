@@ -1,0 +1,21 @@
+pupils = 30
+tests = 3
+test1_total = 0
+test2_total = 0
+test3_total = 0
+for i in range ( 1, 31 ):
+    print("Entering scores for pupil {i}:")
+    test1 = int(input("Enter score for Test 1: "))
+    test2 = int(input("Enter score for Test 2: "))
+    test3 = int(input("Enter score for Test 3: "))
+    test1_total += test1
+    test2_total += test2
+    test3_total += test3
+test1_avg = test1_total // pupils
+test2_avg = test2_total // pupils
+test3_avg = test3_total // pupils
+overall_avg = (test1_total + test2_total + test3_total) / (tests * pupils)
+print(f"Average score for Test 1:" , test1_avg)
+print(f"Average score for Test 2:" , test2_avg)
+print (f"Average score for Test 3:", test3_avg)
+print(f"Overall average score for the year:", overall_avg)
