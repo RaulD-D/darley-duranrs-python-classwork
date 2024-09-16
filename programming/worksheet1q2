@@ -1,0 +1,9 @@
+NoW = int(input("How many walls would you like to paint?"))
+length = float(input("What is the length of the wall you would like to paint, in metres?"))
+height = float(input("What is the height of the wall you would like to paint, in metres?"))
+nlength = float(input("What is the total length of every part of the walls you would not like to paint, in metres?"))
+nheight = float(input("What is the total height of every part of the walls you would not like to paint, in metres?"))
+Coats = int(input("How many coats of paint do you need"))
+area = (length*height*NoW) - (nlength*nheight)
+paint = (area*Coats)//11
+print(paint+1)
