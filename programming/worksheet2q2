@@ -1,0 +1,5 @@
+Age = int(input())
+if Age > 10 and Age < 19:
+    print("Valid pupil age")
+else:
+    print("Invalid input: enter a value from 11 to 18")
