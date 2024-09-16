@@ -1,0 +1,18 @@
+total_faulty = 0
+total_parts = 0
+while True:
+    while True:
+        part_number = int(input("Enter a 4-digit part number (or enter 9999 to stop): "))
+        if part_number == 9999:
+            break
+        if part_number < 1000 or part_number > 9999:
+            print("Error: Please enter a valid 4-digit part number.")
+        else:
+            last_digit = part_number % 10
+            if last_digit == 6 or last_digit == 7 or last_digit == 8:
+                total_faulty += 1
+            total_parts += 1
+            break
+    if part_number == 9999:
+        break
+print("Total faulty parts:", total_faulty)
